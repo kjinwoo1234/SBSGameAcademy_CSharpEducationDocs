@@ -20,6 +20,7 @@ disable-model-invocation: true
 | Domain quality | `skills/docs-review/SKILL.md` | **품질 SSOT** — 따라가기·채점 |
 | Course overlay | `rules/stack-*.mdc` | 엔진·경로 등 특이점만 (입문 교수법 금지 — docs-review) |
 | Improve | `skills/review-improve/SKILL.md` | 리뷰 반영 + 총점 100 (패턴은 docs-review 참조) |
+| Review calibrate | `skills/review-skill-feedback/SKILL.md` | 사람 평가로 docs-review/review-improve 보강 |
 | Immutable | `invariant-rules.mdc` | 비밀·목차 계약·지침 |
 | Conventions | `stack-conventions.mdc` | 문서 레이어 |
 | Structure | `solid-principles.mdc` | 문서 SOLID 대응 |

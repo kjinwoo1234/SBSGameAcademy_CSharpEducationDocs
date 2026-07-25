@@ -40,6 +40,7 @@ alwaysApply: true
 공정 스킬?              → skills/{name}/SKILL.md
 repo·목차?              → project-domain.mdc
 docs 품질·채점?         → docs-review (SSOT)
+리뷰/improve 산출 평가? → skills/review-skill-feedback (스킬 보강)
 과정 특이?              → stack-*.mdc (엔진·경로만; 입문 순서는 docs-review)
 레이어·목차 계약?       → stack-conventions, solid-principles
 응답 문체?              → caveman-mode → skills/caveman
@@ -58,6 +59,7 @@ docs 품질·채점?         → docs-review (SSOT)
 | `@self-update` | `self-update` |
 | `/review` | `docs-review` |
 | `/review-improve` | `review-improve` (총점 100까지) |
+| `/review-skill-feedback` / `/calibrate-review` | `review-skill-feedback` (리뷰·improve 평가 → 스킬 보강) |
 
 「커서 지침 업데이트」 → RULE-05 예외로 rules/skills 반영.
 

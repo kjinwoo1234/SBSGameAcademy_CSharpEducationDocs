@@ -8,6 +8,8 @@ alwaysApply: true
 **타입:** `documentation`  
 학습 산출물 = `docs/`·루트 `README.md`. 에이전트 지침 = `.cursor/`만. 앱 런타임·DB 없음.
 
+**학습자:** 컴퓨터·프로그래밍 지식이 거의 없는 상태에서 **게임 개발을 목차 순서대로** 배운다. 품질·초보 사다리·용어 정의는 `docs-review` SSOT. 이 파일에 교수법 장문 복제 금지.
+
 ## 품질 SSOT
 
 챕터·목차 **본문 품질·채점·선행 문법·장 범위·문장 패턴** → `skills/docs-review/SKILL.md`.  
@@ -65,7 +67,7 @@ alwaysApply: true
 ## 작업 규칙
 
 1. `docs/` 작성·수정 → `docs-review` 패턴. 리뷰 `/review`, 반영 `/review-improve`(총점 100까지).
-2. 학습 문서에 외부 URL 넣지 않음.
+2. 학습 문서에 외부 권위·참고 URL 넣지 않음. **설치/가입용 공식 배포 URL**만 예외(`docs-review` Q3).
 3. 지침 변경 → RULE-05·`@self-update`·「커서 지침 업데이트」·보정 루프.
 4. `.result/` = 내부 리뷰만. 커밋·`docs/` 혼동 금지.
 5. 레이어: `stack-conventions.mdc`.
@@ -85,7 +87,7 @@ alwaysApply: true
 - **본문에 괄호 부연을 끼워 문장을 끊음** (`n--(…)`, `차이를(…)` 등)
 - **예제만 분리하고 설명·Length/`sizeof`는 한곳에 남김** / 선언·초기화·길이·인덱스를 한 예제에 몰아넣음
 - **C# 배열 기본값 `0`을 C·C++ 지역 배열에 그대로 적음**
-- `docs/`에 외부 권위 자료 URL 삽입
+- `docs/`에 외부 권위·참고 URL 삽입(설치/가입 공식 URL 예외 아님인데 넣은 경우)
 - placeholder·`TODO`를 학습 문서에 남김
 - 모호한 순서 지시를 임의로 해석해 챕터를 재배치함
 - **사용자 순서 지시가 있는데 다른 과정 문서를 열어 맞춰 수정** (예: C#인데 C `08-loops` 참고)
