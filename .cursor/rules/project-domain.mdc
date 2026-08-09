@@ -28,7 +28,7 @@ alwaysApply: true
 | 챕터 | `docs/<과정>/NN-*.md` | 작성 중·품질=`docs-review` |
 | 리뷰 스크래치 | `.result/` | gitignore |
 
-**과정 디렉터리:** `docs/c`, `docs/cpp`, `docs/csharp`, `docs/git`, `docs/unity`, `docs/unrealEngine`, `docs/porfolio` (철자 유지).
+**과정 디렉터리:** `docs/c`, `docs/cpp`, `docs/csharp`, `docs/git`, `docs/windowsApi`, `docs/unity`, `docs/unrealEngine`, `docs/porfolio` (철자 유지).
 
 ## 레이아웃
 
